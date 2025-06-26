@@ -1,6 +1,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,vim,visualstudiocode,jupyternotebooks,python,flask
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,vim,visualstudiocode,jupyternotebooks,python,flask
 
+# Custom
+
+secrets/**
+*.java
+keyfile.pem
+
+
+
 ### Flask ###
 instance/*
 !instance/.gitignore
